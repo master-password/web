@@ -21,11 +21,11 @@ function generate() {
 </script>
 
 <template>
-  <main class="border-2 rounded-md p-5 shadow-lg shadow-gray-400">
+  <main class="border-2 rounded-md p-5 shadow-lg shadow-gray-400 bg-white">
     <form @submit.prevent="generate">
       <div class="space-y-12">
         <div class="">
-          <h2 class="text-base font-semibold leading-7 text-gray-900 text-center">
+          <h2 class="text-base font-semibold leading-7 text-cyan-900 text-center">
             Master Password
           </h2>
 
@@ -75,7 +75,7 @@ function generate() {
       <div class="mt-6 flex items-center justify-center gap-x-6">
         <button
           type="submit"
-          class="rounded-md px-2 py-1 text-sm font-semibold border border-cyan-900 text-cyan-900 shadow-sm hover:border-cyan-600 hover:text-cyan-600 flex justify-between gap-4"
+          class="rounded-md px-2 py-1 text-sm font-semibold border border-cyan-800 text-cyan-800 shadow-sm hover:border-cyan-500 hover:text-cyan-500 flex justify-between gap-4"
         >
           Generate <ArrowPathIcon class="h-6 w-6" />
         </button>
